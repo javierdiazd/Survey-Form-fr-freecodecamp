@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    padding-bottom: 10px;
+}
+input {
+    display: block;
+    width: 100%;
+}
+textarea {
+    display: block;
+    min-width: 100%;
+    max-height: 300px;
+    max-width: 100%;
+    min-height: 120px;
+}
+
+form{
+    background-color: cadetblue;
+    padding: 40px 40px 40px 40px;
+    
+}
+#bottom-area {
+    float: left;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+input[type=checkbox]:not(old) + label, 
+input[type=radio]:not(old) + label {
+    display: inline-block;
+    margin-left: -28px;
+    padding-left: 28px;
+}
+
+input, select {
+    display: block;
+    min-width: 100%;
+    padding: 10px;
+
+}
+
+.working2 select {
+    display: block;
+    min-width: 100%;
+}
