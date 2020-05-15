@@ -1,1 +1,76 @@
-    <h1 id="title">Tell us a bit about yourself</h1>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/style.css">
+        <title>Survey</title>
+    </head>
+    <body>
+        <div></div>
+            <h1 id="title">Tell us a bit about yourself</h1>
+
+                <p id="description">This is a Survey where you can tell us about your personal information</p>
+                <form id="survey-form">
+
+                    <div class="named">
+                        <label for="name" id="name-label">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Put you name here" required><br>
+                    </div>
+                        
+                    <div class="emailed">
+                        <label for="email" id="email-label">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="ex: abcde@mail.com..." required><br>
+                    </div>
+                        
+                    <div class="numbered">
+                        <label for="number" id="number-label">Phone Number:</label>
+                        <input type="number" name="number" id="number" max="12" min="8" maxlength="14" placeholder="Phone Number:" minlength="8" required><br>
+                    </div>
+                    
+                    <div class="working2">
+                        <label for="working">Working</label><br>
+                        <select name="working" id="dropdown">
+
+                            <option value="working-a" name="workingnow">Working</option>
+                        
+                            <option value="unemployed" name="unemployed">Unemployed</option>
+                        
+                        </select>
+                    </div>
+                    <br>
+                    <div class="divarea">
+                        <label for="textarea">Laboral Info</label><br>
+                        <textarea id="textarea" placeholder="Aditional info of you laboral activity"></textarea>
+                        
+                    </div><br>
+                    
+                    <div id="bottom-area">
+                        <label for="radio-inlie">Select your gender</label>
+                    
+                        <input type="radio" id="male" name="gender" value="Male" class="radio-inline">Male<br>
+                        <input type="radio" id="female" name="gender" value="female" class="radio-inline">Female<br>
+                        <input type="radio" id="other" name="gender" value="other" class="radio-inline">Others<br>
+                    
+                        
+                    </div>
+                    
+                    <div id="bottom-area"> 
+                        <label for="checkbox">Free time at the week</label>
+                        
+                        <input type="checkbox" id="fewhours" name="fewhours" value="12h">Less of 12 or more<br>
+                        <input type="checkbox" id="freetime" name="freetime" value="24h">24 to 48<br>
+                        <input type="checkbox" id="manyhours" name="manyhours" value="48h">more than 48h<br>
+                    </div>
+                    <br>
+                    
+
+                    <input type="submit" name="button" id="submit">
+
+                </form>
+            <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        </div>
+    </body>
+</html> 
+    
+
